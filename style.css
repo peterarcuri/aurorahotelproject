@@ -1,0 +1,29 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;    
+    font-family: 'Alice', sans-serif;
+}
+
+h1 {
+    color: #c1e8f9;
+    text-shadow: 2px 2px 6px #080808;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, #5de0e6, #004aad); 
+    height: 6.5vh;
+}
+
+.nav-link {
+    font-size: 1.9rem;
+    color: #c1e8f9;
+    padding: 10px 2.5px;    
+    box-shadow: hidden;
+}
+
+.nav-link:hover {
+    box-shadow: 5px 5px 10px rgb(207, 202, 202);
+    color: white;
+    background: linear-gradient(to bottom, #5de0e6, #004aad); 
+}
+
