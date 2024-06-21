@@ -27,3 +27,22 @@ h1 {
     background: linear-gradient(to bottom, #5de0e6, #004aad); 
 }
 
+#section1 {
+    height: 100vh;
+    width: 100%
+}
+
+#section2 {
+    height: 100vh;
+    width: 100%
+}
+
+#section3 {
+    height: 100vh;
+    width: 100%
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
