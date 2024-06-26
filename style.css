@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;    
     font-family: 'Alice', sans-serif;
+    overflow: hidden;
 }
 
 h1 {
@@ -19,13 +20,15 @@ h1 {
     color: #c1e8f9;
     padding: 10px 2.5px;    
     box-shadow: hidden;
+    
 }
 
 .nav-link:hover {
-    box-shadow: 5px 5px 10px rgb(207, 202, 202);
-    color: white;
+    box-shadow: 5px 5px 50px white;
     background: linear-gradient(to bottom, #5de0e6, #004aad); 
 }
+
+
 
 #section1 {
     height: 100vh;
@@ -46,3 +49,5 @@ h1 {
     padding-left: 0;
     padding-right: 0;
 }
+
+
